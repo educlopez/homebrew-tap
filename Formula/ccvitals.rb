@@ -1,8 +1,8 @@
 class Ccvitals < Formula
   desc "Pretty, pure-bash statusline for Claude Code — quota, context, cost, git & more"
   homepage "https://github.com/educlopez/ccvitals"
-  url "https://github.com/educlopez/ccvitals/archive/refs/tags/v1.9.0.tar.gz"
-  sha256 "15d3d6cec8424b3b8370acdf4d95b81d8979f21d464db946662dd0fc7648f5a1"
+  url "https://github.com/educlopez/ccvitals/archive/refs/tags/v1.11.0.tar.gz"
+  sha256 "ccbdc3dc44391b4691547b88213c429df90eb4570787eb5b839264aa9999e8e2"
   license "MIT"
 
   depends_on "jq"
