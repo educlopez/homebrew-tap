@@ -25,7 +25,7 @@ cask "ui-craft" do
 
   name "ui-craft"
   desc "ui-craft CLI — install the UI Craft design system into any AI agent harness"
-  homepage "https://skills.smoothui.dev"
+  homepage "https://ui-craft.smoothui.dev"
 
   livecheck do
     skip "Auto-generated on release."
