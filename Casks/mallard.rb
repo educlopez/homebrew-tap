@@ -4,21 +4,21 @@ cask "mallard" do
 
   on_macos do
     on_arm do
-      sha256 "e209de9c61eda81afb03a26eea41211a6e8044ab5c219ca71f3d4d852b8c4bbb"
+      sha256 "dcdb12e3dfb2100ff61d37ef84d7f37b2f6680cf238f6d752e56a13381b3a297"
       url "https://github.com/educlopez/mallard/releases/download/v#{version}/mallard_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "129d1cbc7c9fe7120790e5435ebea7dac8725b4484220f727c00a03562dfbd53"
+      sha256 "8190edf667a71356512ed59247f4d2c19082dd441e642e3007ac68c5483d4387"
       url "https://github.com/educlopez/mallard/releases/download/v#{version}/mallard_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "f3f5b21f6c0de2443b01062b95ca0f7819f84d5b807a30670c9df32e92c2e4dd"
+      sha256 "247b140c67071b5f5ed3067c3ad95960899e0e628162f03275de44d31fea3c60"
       url "https://github.com/educlopez/mallard/releases/download/v#{version}/mallard_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "e43c2039330b1cac8c922d3bf9349503c1dcb030cb951c9ed71ad6e9cc64aff9"
+      sha256 "9bd263993b5fc94924f75e4ec98c2ad728eb30a22eab9683966360a63ea26717"
       url "https://github.com/educlopez/mallard/releases/download/v#{version}/mallard_#{version}_linux_amd64.tar.gz"
     end
   end
